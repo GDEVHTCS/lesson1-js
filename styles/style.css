@@ -1,0 +1,70 @@
+body{
+    height: 310vh;
+}
+.form-wrap {
+    display: block;
+}
+
+.label {
+    font-size: 64px;
+    font-family: "Ranchers", sans-serif;
+}
+
+.form {
+    text-align: center;
+    margin-top: 300px;
+}
+
+#num-input,
+#text-input,
+#text-input3 {
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    padding: 15px;
+    width: 90%;
+    text-align: center;
+    font-size: 35px;
+    transition: 0.2s;
+}
+
+#num-input:focus,
+#text-input:focus,
+#text-input3:focus {
+    box-shadow: 0px 0px 15px #000;
+    border-radius: 10px;
+}
+
+#submit,
+#submit2,
+#submit3 {
+    margin-top: 50px;
+    outline: none;
+    border: none;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: blue;
+    width: 90%;
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.answer-title {
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: "Leckerli One", cursive;
+}
+
+#result,
+#result2,
+#result3 {
+    font-size: 45px;
+    margin-top: 30px;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+.hw-title {
+    font-size: 3rem;
+}
